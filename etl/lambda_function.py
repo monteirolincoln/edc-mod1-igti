@@ -33,7 +33,7 @@ def handler(event, context):
                     'Ec2KeyName': 'lin-igti-key-pair',
                     'KeepJobFlowAliveWhenNoSteps': True,
                     'TerminationProtected': False,
-                    'Ec2SubnetId': 'subnet-1df20360'
+                    'Ec2SubnetId': 'subnet-09237418fb7680b80'
                 },
 
                 Applications=[
