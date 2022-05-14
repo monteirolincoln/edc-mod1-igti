@@ -3,6 +3,6 @@ variable "aws_region" {
 }
 
 variable "lambda_function_name" {
-  default = "IGTIexecutaEMRaovivo"
+  default = "IGTIexecutaEMR"
 }
 
