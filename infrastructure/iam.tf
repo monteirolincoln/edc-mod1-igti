@@ -18,8 +18,8 @@ resource "aws_iam_role" "lambda" {
 EOF
 
     tags = {
-        IES = "IGTI"
-        CURSO = "EDC"
+        IES     = "IGTI"
+        CURSO   = "EDC"
     }
 }
 
@@ -29,7 +29,7 @@ resource "aws_iam_policy" "name" {
   description = "Provides write permissions to CloudMatch Logs, S3 buckets and EMR Steps"
 
   policy = <<EOF
-{
+    {
     "Version": "2012-10-17"
     "Statement":[
         {
