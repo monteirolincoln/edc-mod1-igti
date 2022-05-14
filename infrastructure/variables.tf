@@ -17,3 +17,4 @@ variable "airflow_subnet_id" {
 variable "vpc_id" {
   default = "vpc-d724b4bc"
 }
+
