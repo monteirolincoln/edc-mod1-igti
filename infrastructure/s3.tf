@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "dl" {
+resource "aws_s3_bucket_server_side_encryption_configuration" "dl" {
   bucket = "datalake-lin-igti-tf"
   acl    = "private"
 
