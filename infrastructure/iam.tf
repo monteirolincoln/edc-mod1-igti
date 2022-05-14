@@ -23,7 +23,7 @@ EOF
     }
 }
 
-resource "aws_iam_policy" "name" {
+resource "aws_iam_policy" "lambda" {
   name = "IGTIAWSLambdaBasicExecutionRolePolicy"
   path = "/"
   description = "Provides write permissions to CloudMatch Logs, S3 buckets and EMR Steps"
