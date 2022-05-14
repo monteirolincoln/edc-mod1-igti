@@ -59,7 +59,7 @@ resource "aws_iam_policy" "name" {
         {
             "Action": "iam:PassRole",
             "Resource": ["arn:aws:iam::002086524290:role/EMR_DefaultRole",
-                         "arn:aws:iam::002086524290:role/EMR_EC2_DefaultRole"],
+                		 "arn:aws:iam::002086524290:role/EMR_EC2_DefaultRole"],
             "Effect": "Allow"
         }
     ]
